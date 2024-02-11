@@ -8,44 +8,68 @@ const Userprofile =()=>{
         <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
           <div className="text-gray-600">
             <p className="font-medium text-lg">User Profile Details</p>
-            <p>Please fill out all the fields.</p>
           </div>
 
           <div className="lg:col-span-2">
+          {/* <p className="font-medium text-lg ">Profile Details</p> */}
             <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
-              <div className="md:col-span-5">
-                <label for="full_name">Full Name</label>
-                <input type="text" name="full_name" placeholder="Full Name" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50 text-black" value="" />
+              <div className="md:col-span-5 ">
+                <table >
+                  <tr>
+                  <td for="full_name" className="font-bold">Full Name :-</td>
+                  <td>Kuldeep Sonune</td>
+                  </tr>
+                </table>
+                
               </div>
 
               <div className="md:col-span-5">
-                <label for="email">Email Address</label>
-                <input type="text" name="email" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="email@domain.com" />
+                <table>
+                  <tr>
+                  <td for="email" className="font-bold">Email Address :-</td>
+                  <td>KuldeepSonune001@gmail.com</td>
+                  </tr>
+                </table>
               </div>
 
               <div className="md:col-span-3">
-                <label for="contact">Contact</label>
-                <input type="text" name="contact"  className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="Phone Number" />
+                <table>
+                  <tr>
+                  <td for="contact" className="font-bold">Contact :-</td>
+                <td>+91 xxxxxxxxxx</td>
+                  </tr>
+                </table>
+                
               </div>
 
               <div className="md:col-span-2">
-                <label for="city">City</label>
-                <input type="text" name="city"  className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="Your City" />
+                <table>
+                  <tr>
+                  <td for="city" className="font-bold">City :-</td>
+                <td>Ch.Sambhaji nager</td>
+                  </tr>
+                </table>
+                
               </div>
-
-              <div className="md:col-span-2">
-                <label for="password">Password</label>
-                <div className="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
-                  <input type="password" name="password"  placeholder="Password" className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent" value="" />
+              <div className="md:col-span-3">
+                <table>
+                  <tr>
+                  <td for="password" className="font-bold">password :-</td>
+                <div >
+                  <td>********</td>
                 </div>
+                  </tr>
+                </table>
+                
               </div>
+
               <div className="md:col-span-5 text-right">
                 <div className="inline-flex items-end">
-                  <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+                  <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Action</button>
                   <button type="delete" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-10">Delete</button>
                 </div>
               </div>
-
+              {/* <p className="md:col-span-5 text-red-500">Made with by Kuldeep Sonune.</p> */}
             </div>
           </div>
         </div>
