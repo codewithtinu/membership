@@ -15,33 +15,33 @@ const Userprofile =()=>{
             <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
               <div className="md:col-span-5">
                 <label for="full_name">Full Name</label>
-                <input type="text" name="full_name" id="full_name" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50 text-black" value="" />
+                <input type="text" name="full_name" placeholder="Full Name" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50 text-black" value="" />
               </div>
 
               <div className="md:col-span-5">
                 <label for="email">Email Address</label>
-                <input type="text" name="email" id="email" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="email@domain.com" />
+                <input type="text" name="email" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="email@domain.com" />
               </div>
 
               <div className="md:col-span-3">
                 <label for="contact">Contact</label>
-                <input type="text" name="contact" id="contact" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
+                <input type="text" name="contact"  className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="Phone Number" />
               </div>
 
               <div className="md:col-span-2">
                 <label for="city">City</label>
-                <input type="text" name="city" id="city" className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
+                <input type="text" name="city"  className="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="Your City" />
               </div>
 
               <div className="md:col-span-2">
                 <label for="password">Password</label>
                 <div className="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
-                  <input name="password" id="password" placeholder="Password" className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent" value="" />
+                  <input type="password" name="password"  placeholder="Password" className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent" value="" />
                 </div>
               </div>
               <div className="md:col-span-5 text-right">
                 <div className="inline-flex items-end">
-                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+                  <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
                 </div>
               </div>
 
