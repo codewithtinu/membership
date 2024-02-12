@@ -4,10 +4,12 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Forgot from './pages/Forgot';
 import Userprofile from './pages/admin/UserProfile';
+import Navbar from './components/admin/Navabar';
 function App() {
   return (
     <>
       <BrowserRouter>
+      <Navbar/>
         <Routes>
           <Route path="/" element={<h1>Membership</h1>} />
           <Route path="/signin" element={<Login />} />
