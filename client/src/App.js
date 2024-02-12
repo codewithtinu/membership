@@ -5,6 +5,7 @@ import Register from './pages/Register';
 import Forgot from './pages/Forgot';
 import Userprofile from './pages/admin/UserProfile';
 import Navbar from './components/admin/Navabar';
+import UserList from './pages/admin/UserList';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/signup" element={<Register />} />
           <Route path="/forgot" element={<Forgot />} />
           <Route path='/userprofile' element={<Userprofile/>}/>
+          <Route path='/userlist' element={<UserList/>}/>
         </Routes>
       </BrowserRouter>
     </>
