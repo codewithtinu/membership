@@ -5,11 +5,13 @@ import Register from './pages/Register';
 import Forgot from './pages/Forgot';
 import Userprofile from './pages/admin/UserProfile';
 import Navbar from './components/admin/Navabar';
+import UserNavbar from './components/user/Navbar';
 function App() {
   return (
     <>
       <BrowserRouter>
       <Navbar/>
+      <UserNavbar/>
         <Routes>
           <Route path="/" element={<h1>Membership</h1>} />
           <Route path="/signin" element={<Login />} />

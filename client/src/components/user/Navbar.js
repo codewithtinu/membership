@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom";
-const Navbar = () =>{
+import Header from "../user/Header";
+const UserNavbar = () =>{
     return(
 
         <div class="bg-indigo-950">
              <nav class="w-full flex justify-between items-center p-2 bg-slate-300">
-       
+                <Header/>
         <div class="text-blue-800 hidden md:block ">
             <ul class="flex">
                 <li class="mx-2 p-2 font-semibold text-slate-700 text-base">
@@ -29,4 +30,4 @@ const Navbar = () =>{
         </div>
     )
 }
-export default Navbar;
+export default UserNavbar;
