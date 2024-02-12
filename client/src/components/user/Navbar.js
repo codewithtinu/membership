@@ -9,13 +9,13 @@ const UserNavbar = () =>{
         <div class="text-blue-800 hidden md:block ">
             <ul class="flex">
                 <li class="mx-2 p-2 font-semibold text-slate-700 text-base">
-                    <NavLink to="#" class="hover:text-blue-700 hover:bg-yellow-300 p-[10px]">Home</NavLink>
+                    <NavLink to="/" class="hover:text-blue-700 hover:bg-yellow-300 p-[10px]">Home</NavLink>
                 </li>
                 <li class="mx-2 p-2 font-semibold text-slate-700 text-base">
-                    <NavLink to="#" class="hover:text-blue-700 hover:bg-yellow-300 p-[10px]">About Us</NavLink>
+                    <NavLink to="/" class="hover:text-blue-700 hover:bg-yellow-300 p-[10px]">About Us</NavLink>
                 </li>
                 <li class="mx-2 p-2 font-semibold text-slate-700 text-base">
-                    <NavLink to="#" class="hover:text-blue-700 hover:bg-yellow-300 p-[10px]">Contact Us</NavLink>
+                    <NavLink to="/" class="hover:text-blue-700 hover:bg-yellow-300 p-[10px]">Contact Us</NavLink>
                 </li>
             </ul>
         </div>
