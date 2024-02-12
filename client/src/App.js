@@ -8,6 +8,7 @@ import Navbar from './components/admin/Navabar';
 import Dashboard from './pages/admin/Dashboard';
 import UserNavbar from './components/user/Navbar';
 import AdminFooter from './components/admin/Footer';
+import UserList from './pages/admin/UserList';
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/forgot" element={<Forgot />} />
           <Route path='/userprofile' element={<Userprofile/>}/>
           <Route path='/Dashboard' element={<Dashboard/>}/>
+          <Route path='/UserList' element={<UserList/>}/>
         </Routes>
 <<<<<<< HEAD
       </BrowserRouter> 
