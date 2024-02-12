@@ -24,12 +24,7 @@ function App() {
           <Route path='/Dashboard' element={<Dashboard/>}/>
           <Route path='/UserList' element={<UserList/>}/>
         </Routes>
-<<<<<<< HEAD
       </BrowserRouter> 
-=======
-        <AdminFooter />
-      </BrowserRouter>
->>>>>>> cb3b5b36d5e9e54af72fe6c91bd3dce43e34663b
     </>
   );
 }
