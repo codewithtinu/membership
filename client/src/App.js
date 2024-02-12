@@ -7,6 +7,7 @@ import Userprofile from './pages/admin/UserProfile';
 import Navbar from './components/admin/Navabar';
 import Dashboard from './pages/admin/Dashboard';
 import UserNavbar from './components/user/Navbar';
+import AdminFooter from './components/admin/Footer';
 function App() {
   return (
     <>
@@ -21,7 +22,12 @@ function App() {
           <Route path='/userprofile' element={<Userprofile/>}/>
           <Route path='/Dashboard' element={<Dashboard/>}/>
         </Routes>
+<<<<<<< HEAD
       </BrowserRouter> 
+=======
+        <AdminFooter />
+      </BrowserRouter>
+>>>>>>> cb3b5b36d5e9e54af72fe6c91bd3dce43e34663b
     </>
   );
 }
