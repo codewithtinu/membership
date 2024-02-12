@@ -1,1 +1,7 @@
-geeta
+const UserList =()=>{
+    return(
+        <>
+        </>
+    )
+}
+export default UserList;
