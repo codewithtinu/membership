@@ -117,6 +117,12 @@ const UserList = () => {
                 >
                     Delete
                 </button>
+                <button
+                  onClick={() => handleDelete(user.id)}
+                  className="bg-blue-700 text-white px-2 py-1"
+                >
+                    Submit
+                </button>
               </td>
             </tr>
           ))}
