@@ -24,6 +24,7 @@ function App() {
           <Route path='/Dashboard' element={<Dashboard/>}/>
           <Route path='/UserList' element={<UserList/>}/>
         </Routes>
+        <AdminFooter/>
       </BrowserRouter> 
     </>
   );
