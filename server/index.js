@@ -7,7 +7,7 @@ const mongoose=require("./database/Schema");
 
 app.post('/api/signup', async(req, resp) => {
    const {name,username,password}=req.body;
-   const db=new mongoose({
+   const db=new mongoose({   
     name:name,
     username:username,
     password:password
