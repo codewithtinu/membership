@@ -1,4 +1,6 @@
 import {useState} from  'react';
+import Axios from "axios"
+import { Link } from 'react-router-dom';
 const Register = () => {
     const [name, setName] = useState("");
     const [username, setUsername] = useState("");
@@ -7,7 +9,9 @@ const Register = () => {
     // sign in fn
     const signUp = (e) => {
         e.preventDefault();
-        console.log(name, username, password);
+        Axios.post("http://localhost:2821/api/signup",{name,username,password})
+        .then((data)=>console.log(data.data))
+        .catch((err)=>console.log(err))
     }
     return (
         <>
@@ -23,7 +27,7 @@ const Register = () => {
                 <input type = "password" placeholder = "Password"
                 value = {password}
                 onChange={(e) => setPassword(e.target.value)} /><br/><br/>
-                <button type="submit">Login</button>
+               <button type="submit">Signup</button>
                 </form>
             </div>
         </>
